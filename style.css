@@ -1,0 +1,52 @@
+.heed1 {color: rgb(50, 98, 189);
+}
+
+#abtme{
+    background-color: rgb(50, 98, 189);
+    color:aliceblue;
+    max-width: fit-content;
+}
+
+.tbns{
+    background-color: blue;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: medium;
+    color: aliceblue;
+}
+
+.tbn{
+    background-color: honeydew;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: small;
+    text-decoration: none;
+}
+    #overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+    }
+
+    #popup {
+      display: none;
+      position: fixed;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -30%);
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+      text-align: center;
+      z-index: 1000;
+    }
+
+    #popup button {
+      margin: 5px;
+    }
